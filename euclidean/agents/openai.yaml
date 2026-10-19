@@ -1,0 +1,6 @@
+interface:
+  display_name: "Euclidean"
+  short_description: "Verify explicit claims against facts and axioms"
+  default_prompt: "Use $euclidean to check these claims against explicit definitions and axioms."
+policy:
+  allow_implicit_invocation: true

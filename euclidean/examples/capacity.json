@@ -1,0 +1,35 @@
+{
+  "definitions": {
+    "NODE_LIMIT": 5000,
+    "REPLICA_COUNT": 3,
+    "INGRESS_PEAK": 18000,
+    "LOAD_BALANCER": true
+  },
+  "claims": {
+    "TOTAL_CAPACITY": {
+      "value": 15000,
+      "sources": [
+        "NODE_LIMIT",
+        "REPLICA_COUNT",
+        "AXIOM_TOTAL_CAPACITY"
+      ]
+    },
+    "TRAFFIC_PER_NODE": {
+      "value": 6000,
+      "sources": [
+        "INGRESS_PEAK",
+        "REPLICA_COUNT",
+        "LOAD_BALANCER",
+        "AXIOM_EVEN_DISTRIBUTION"
+      ]
+    },
+    "OVERLOADED": {
+      "value": true,
+      "sources": [
+        "INGRESS_PEAK",
+        "TOTAL_CAPACITY",
+        "AXIOM_OVERFLOW_RULE"
+      ]
+    }
+  }
+}
