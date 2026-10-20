@@ -1,0 +1,92 @@
+{
+  "baseline_commit": "87c9d2052b889e35cfbde6dd085a6e9bba36e7e5",
+  "scope": "18 scoped findings repaired or explicitly bounded",
+  "focused_tests": 16,
+  "notebooks": [
+    {
+      "file": "Copy_of_Model_Regression_Detection_System.ipynb",
+      "sha256": "bbd1952b7a7abde497e63ddf3ba34932637f0e7ff471da7959f0348a7bf37785",
+      "code_cells": 31,
+      "status": "PASS",
+      "seconds": 6.78
+    },
+    {
+      "file": "Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "sha256": "b1aa4fd7e40e4e2feb37087e66b40352c0093bde11f29060876a9e804c9f8669",
+      "code_cells": 54,
+      "status": "PASS",
+      "seconds": 5.16
+    },
+    {
+      "file": "HITL_Review_Pipeline.ipynb",
+      "sha256": "8d5ecdfd44406d79e7c0b4bbc77f83adcfb6172a29fa63c4a6f8d4d4312135cf",
+      "code_cells": 36,
+      "status": "PASS",
+      "seconds": 4.68
+    },
+    {
+      "file": "Hybrid_RAG_Retrieval_Eval_Pipeline (1).ipynb",
+      "sha256": "a9f9cc0672584cf403cd879f4f19bedccff6ddd0c0645257a8475df11bb578a8",
+      "code_cells": 40,
+      "status": "PASS",
+      "seconds": 11.89
+    },
+    {
+      "file": "Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb",
+      "sha256": "6403779bf36e1b715320465734816b8201e73c97bf0c5cc19b60b35da9113ceb",
+      "code_cells": 39,
+      "status": "PASS",
+      "seconds": 7.92
+    },
+    {
+      "file": "Image_Classification_Pipeline.ipynb",
+      "sha256": "dd732041d8f22e6d3b7bbe33974aa2bed594d3107265dfe64d2344b762b0e4bb",
+      "code_cells": 18,
+      "status": "PASS",
+      "seconds": 6.26
+    },
+    {
+      "file": "LLM_Eval_Regression_Testing_Framework.ipynb",
+      "sha256": "bef3e4afde261fd0b1e62afc597f013ce3dbe67bc7a8f8c09887bfe3a49dbbc5",
+      "code_cells": 22,
+      "status": "PASS",
+      "seconds": 4.72
+    },
+    {
+      "file": "LLM_cost_Autopilot.ipynb",
+      "sha256": "3b47249456e597065049cf860e7e6fb8d1f44fe952903e4fba04c4efa4c47f90",
+      "code_cells": 37,
+      "status": "PASS",
+      "seconds": 2.36
+    },
+    {
+      "file": "Linear_Regression_Model.ipynb",
+      "sha256": "24448aa9572a0a9e6138afce54c0aa39198cada72bf882f393fe2a24fb8235e9",
+      "code_cells": 18,
+      "status": "PASS",
+      "seconds": 4.24
+    },
+    {
+      "file": "ModelData_Drift_Detection.ipynb",
+      "sha256": "85a8973c46e3e8d4e84ce989d62bcaec4152874be9910b49f7902b96bfd383a2",
+      "code_cells": 26,
+      "status": "PASS",
+      "seconds": 6.66
+    },
+    {
+      "file": "Neural_Network_JEV (1).ipynb",
+      "sha256": "17fda95d12b0ac7271431f8ca9fa7621957c372f4dc37adc2de70c066035fd59",
+      "code_cells": 26,
+      "status": "PASS",
+      "seconds": 5.89
+    },
+    {
+      "file": "Prompt_Versioning_AB_Testing_Platform.ipynb",
+      "sha256": "a8090659050605433171793ad15a13918631da149c45b5737817bb9ae36081b8",
+      "code_cells": 43,
+      "status": "PASS",
+      "seconds": 2.72
+    }
+  ],
+  "live_services": "UNVERIFIED"
+}
