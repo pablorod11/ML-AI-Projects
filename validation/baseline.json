@@ -1,0 +1,525 @@
+{
+  "repository": "https://github.com/pablorod11/ML-AI-Projects",
+  "commit": "87c9d2052b889e35cfbde6dd085a6e9bba36e7e5",
+  "date": "2026-10-20",
+  "overall": "ANALYZED_WITH_CORRECTNESS_FINDINGS",
+  "execution": "12/12 notebooks and 390/390 code cells completed offline",
+  "environment": "Python 3.12.14; exact packages in requirements-validated.txt",
+  "notebooks": [
+    {
+      "file": "Copy_of_Model_Regression_Detection_System.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 108.67,
+      "startup_stderr": "Fontconfig error: No writable cache directories\nFontconfig error: No writable cache directories\nFontconfig error: No writable cache directories\n2026-10-20 12:06:36.454 system_profiler[79797:2036438] XType: Using static font registry.\nMatplotlib is building the font cache; this may take a moment.\n"
+    },
+    {
+      "file": "Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 108.24,
+      "startup_stderr": "Fontconfig error: No writable cache directories\nFontconfig error: No writable cache directories\nFontconfig error: No writable cache directories\n2026-10-20 12:06:36.454 system_profiler[79795:2036441] XType: Using static font registry.\nMatplotlib is building the font cache; this may take a moment.\n"
+    },
+    {
+      "file": "HITL_Review_Pipeline.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 107.88,
+      "startup_stderr": "Fontconfig error: No writable cache directories\nFontconfig error: No writable cache directories\nFontconfig error: No writable cache directories\n2026-10-20 12:06:36.454 system_profiler[79796:2036442] XType: Using static font registry.\nMatplotlib is building the font cache; this may take a moment.\n"
+    },
+    {
+      "file": "Hybrid_RAG_Retrieval_Eval_Pipeline (1).ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 20.35,
+      "startup_stderr": ""
+    },
+    {
+      "file": "Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 10.62,
+      "startup_stderr": ""
+    },
+    {
+      "file": "Image_Classification_Pipeline.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 7.86,
+      "startup_stderr": ""
+    },
+    {
+      "file": "LLM_Eval_Regression_Testing_Framework.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 5.73,
+      "startup_stderr": ""
+    },
+    {
+      "file": "LLM_cost_Autopilot.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 2.63,
+      "startup_stderr": ""
+    },
+    {
+      "file": "Linear_Regression_Model.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 5.4,
+      "startup_stderr": ""
+    },
+    {
+      "file": "ModelData_Drift_Detection.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 17.11,
+      "startup_stderr": ""
+    },
+    {
+      "file": "Neural_Network_JEV (1).ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 6.57,
+      "startup_stderr": ""
+    },
+    {
+      "file": "Prompt_Versioning_AB_Testing_Platform.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 2.51,
+      "startup_stderr": ""
+    }
+  ],
+  "inventory": [
+    {
+      "file": "Copy_of_Model_Regression_Detection_System.ipynb",
+      "code_cells": 31,
+      "syntax_errors": [],
+      "sha256": "2940567d8c826b1ec9212b67adabf60eb01e80ae0e94fdde25c3a480c4adaca2"
+    },
+    {
+      "file": "Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "code_cells": 54,
+      "syntax_errors": [],
+      "sha256": "809cbeb0be1941356df20de7058874b02ad1e2787d3ba79f8d57a395c1e7c8cd"
+    },
+    {
+      "file": "HITL_Review_Pipeline.ipynb",
+      "code_cells": 36,
+      "syntax_errors": [],
+      "sha256": "170fd6db004b28af4469764a331f57dfe6d8b197753acbee320eebca54abe40d"
+    },
+    {
+      "file": "Hybrid_RAG_Retrieval_Eval_Pipeline (1).ipynb",
+      "code_cells": 40,
+      "syntax_errors": [],
+      "sha256": "eba6a448b0bed6f493bb720ab4f29f9a7eb0bb81315b91f42f2dbe9d5de81d08"
+    },
+    {
+      "file": "Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb",
+      "code_cells": 39,
+      "syntax_errors": [],
+      "sha256": "6403779bf36e1b715320465734816b8201e73c97bf0c5cc19b60b35da9113ceb"
+    },
+    {
+      "file": "Image_Classification_Pipeline.ipynb",
+      "code_cells": 18,
+      "syntax_errors": [],
+      "sha256": "dd732041d8f22e6d3b7bbe33974aa2bed594d3107265dfe64d2344b762b0e4bb"
+    },
+    {
+      "file": "LLM_Eval_Regression_Testing_Framework.ipynb",
+      "code_cells": 22,
+      "syntax_errors": [],
+      "sha256": "2e977a44c5b1416b646ba71987e5ac833374a9fac181ea9c65c3fa4e74192af5"
+    },
+    {
+      "file": "LLM_cost_Autopilot.ipynb",
+      "code_cells": 37,
+      "syntax_errors": [],
+      "sha256": "7965dc5f9922d8424139f28513f4050d10e99b4ddda113fe8f7d1f5c5fc5b059"
+    },
+    {
+      "file": "Linear_Regression_Model.ipynb",
+      "code_cells": 18,
+      "syntax_errors": [],
+      "sha256": "24448aa9572a0a9e6138afce54c0aa39198cada72bf882f393fe2a24fb8235e9"
+    },
+    {
+      "file": "ModelData_Drift_Detection.ipynb",
+      "code_cells": 26,
+      "syntax_errors": [],
+      "sha256": "0c0d24937c0f7681f7ce323f4e9115696316172c27314e30c74f1502596591cb"
+    },
+    {
+      "file": "Neural_Network_JEV (1).ipynb",
+      "code_cells": 26,
+      "syntax_errors": [],
+      "sha256": "82b41b28b7ad35b231b83e9f7b78d47e0fd49ae81742aed7086c389ed1990cd6"
+    },
+    {
+      "file": "Prompt_Versioning_AB_Testing_Platform.ipynb",
+      "code_cells": 43,
+      "syntax_errors": [],
+      "sha256": "11932d4b0b123de78c638713929bd1fe92620103b81195fd204691e45ed22819"
+    }
+  ],
+  "findings": [
+    {
+      "notebook": "Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "cell_index": 4,
+      "severity": "P1",
+      "classification": "data_leakage_design",
+      "title": "Split source descriptions before generating variants",
+      "snippet": "train_data, temp_data = train_test_split(\n    data,\n    test_size=0.40,\n    stratify=data[\"label\"],\n    random_state=RANDOM_STATE",
+      "failure_trigger": "Cell 3 generates six prefix/suffix variants of each of only 40 original descriptions, then cell 4 splits individual rows. Related variants can land in training, validation, and test. The holdout therefore measures recognition of seen templates, and the validation threshold is calibrated on those same templates. Enterprise drop_duplicates removes exact duplicates only; HITL does not even remove exact duplicates.",
+      "suggested_fix": "Assign a source-description group ID; split groups first, then augment training only. Assert group and normalized-text disjointness. Report template holdout separately from independent golden cases.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        4
+      ],
+      "fix": "Assign a source-description group ID; split groups first, then augment training only. Assert group and normalized-text disjointness. Report template holdout separately from independent golden cases.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "verification": "SOURCE_CONFIRMED",
+      "audit_id": "F01"
+    },
+    {
+      "notebook": "HITL_Review_Pipeline.ipynb",
+      "cell_index": 4,
+      "severity": "P1",
+      "classification": "data_leakage_design",
+      "title": "Split source descriptions before generating variants",
+      "snippet": "train_data, temp_data = train_test_split(\n    data,\n    test_size=0.40,\n    stratify=data[\"label\"],\n    random_state=RANDOM_STATE",
+      "failure_trigger": "Cell 3 generates six prefix/suffix variants of each of only 40 original descriptions, then cell 4 splits individual rows. Related variants can land in training, validation, and test. The holdout therefore measures recognition of seen templates, and the validation threshold is calibrated on those same templates. Enterprise drop_duplicates removes exact duplicates only; HITL does not even remove exact duplicates.",
+      "suggested_fix": "Assign a source-description group ID; split groups first, then augment training only. Assert group and normalized-text disjointness. Report template holdout separately from independent golden cases.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        4
+      ],
+      "fix": "Assign a source-description group ID; split groups first, then augment training only. Assert group and normalized-text disjointness. Report template holdout separately from independent golden cases.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/HITL_Review_Pipeline.ipynb",
+      "verification": "SOURCE_CONFIRMED",
+      "audit_id": "F02"
+    },
+    {
+      "notebook": "LLM_cost_Autopilot.ipynb",
+      "cell_index": 26,
+      "severity": "P1",
+      "classification": "actual_bug",
+      "title": "Savings compare two different request workloads",
+      "snippet": "autopilot_cost = total_cost\n\nalways_premium_cost = 0.0\nfor prompt in demo_requests:",
+      "failure_trigger": "On a clean sequential run only cells 15 and 16 call llm_autopilot (two requests). Cell 18 defines ten demo_requests but never executes them. The premium baseline prices those ten while autopilot_cost prices the original two, so comparison and savings_percent are invalid.",
+      "suggested_fix": "Execute demo_requests through autopilot and calculate both strategy totals from the identical successful prompt cohort, excluding or separately reporting blocked requests.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        26
+      ],
+      "fix": "Execute demo_requests through autopilot and calculate both strategy totals from the identical successful prompt cohort, excluding or separately reporting blocked requests.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/LLM_cost_Autopilot.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F03"
+    },
+    {
+      "notebook": "Copy_of_Model_Regression_Detection_System.ipynb",
+      "cell_index": 27,
+      "severity": "P2",
+      "classification": "conditional_bug",
+      "title": "Reusable regression gate drops the log-loss check",
+      "snippet": "passed = (\n        accuracy_delta\n        >= -max_accuracy_drop\n        and\n        f1_delta\n        >= -max_f1_drop\n    )",
+      "failure_trigger": "detect_regression computes probabilities but does not evaluate them. A candidate with identical hard predictions and substantially worse confidence/log_loss receives PASS here, although cells 10-14 reject log_loss increases above 0.05. The reusable API does not enforce the demonstrated release policy.",
+      "suggested_fix": "Compute log_loss deltas with the same probability class alignment and LOG_LOSS_MAX_INCREASE limit; centralize the checks to keep both entry points consistent.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        27
+      ],
+      "fix": "Compute log_loss deltas with the same probability class alignment and LOG_LOSS_MAX_INCREASE limit; centralize the checks to keep both entry points consistent.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/Copy_of_Model_Regression_Detection_System.ipynb",
+      "verification": "SOURCE_CONFIRMED",
+      "audit_id": "F04"
+    },
+    {
+      "notebook": "Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "cell_index": 20,
+      "severity": "P2",
+      "classification": "conditional_bug",
+      "title": "Failed threshold calibration still enables auto acceptance",
+      "snippet": "else:\n\n    AUTO_ACCEPT_THRESHOLD = (\n        DEFAULT_AUTO_ACCEPT_THRESHOLD\n    )",
+      "failure_trigger": "When no validation threshold reaches TARGET_AUTO_ACCEPT_ACCURACY, fallback 0.70 still routes qualifying predictions to AUTO_ACCEPT without evidence of meeting the target. This may occur precisely because accuracy was inadequate.",
+      "suggested_fix": "Disable automatic acceptance when calibration has no eligible threshold; report calibration failure and send traffic for review.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        20
+      ],
+      "fix": "Disable automatic acceptance when calibration has no eligible threshold; report calibration failure and send traffic for review.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "verification": "SOURCE_CONFIRMED",
+      "audit_id": "F05"
+    },
+    {
+      "notebook": "Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "cell_index": 27,
+      "severity": "P2",
+      "classification": "actual_bug",
+      "title": "Completed reviews remain PENDING in persisted queue",
+      "snippet": "review_queue[\n    \"review_status\"\n] = \"PENDING\"",
+      "failure_trigger": "After review_log is constructed and final_results updated, review_queue is never updated before saving review_queue.csv. Every completed review still appears pending in the queue artifact, conflicting with final_results and completion counts.",
+      "suggested_fix": "Update queue statuses using completed record IDs, or persist separate pending and completed queues.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        27
+      ],
+      "fix": "Update queue statuses using completed record IDs, or persist separate pending and completed queues.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F06"
+    },
+    {
+      "notebook": "HITL_Review_Pipeline.ipynb",
+      "cell_index": 18,
+      "severity": "P2",
+      "classification": "actual_bug",
+      "title": "Completed reviews remain PENDING in persisted queue",
+      "snippet": "review_queue[\n    \"review_status\"\n] = \"PENDING\"",
+      "failure_trigger": "After review_log is constructed and final_results updated, review_queue is never updated before saving review_queue.csv. Every completed review still appears pending in the queue artifact, conflicting with final_results and completion counts.",
+      "suggested_fix": "Update queue statuses using completed record IDs, or persist separate pending and completed queues.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        18
+      ],
+      "fix": "Update queue statuses using completed record IDs, or persist separate pending and completed queues.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/HITL_Review_Pipeline.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F07"
+    },
+    {
+      "notebook": "HITL_Review_Pipeline.ipynb",
+      "cell_index": 24,
+      "severity": "P2",
+      "classification": "conditional_bug",
+      "title": "No-review case loses the review-log schema",
+      "snippet": "review_log = pd.DataFrame(\n    reviews\n)",
+      "failure_trigger": "If review_queue contains none of JOB-006 through JOB-010 (e.g. thresholds/model changed or empty human_labels), reviews is empty and review_log has no columns. Cell 28 selecting review_log[[\"record_id\", ...]] raises KeyError, despite cell 27 handling empty review counts.",
+      "suggested_fix": "Construct review_log with an explicit column schema, as the Enterprise notebook does.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        24
+      ],
+      "fix": "Construct review_log with an explicit column schema, as the Enterprise notebook does.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/HITL_Review_Pipeline.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F08"
+    },
+    {
+      "id": "LLM-1",
+      "severity": "P2",
+      "notebooks": [
+        "Hybrid_RAG_Retrieval_Eval_Pipeline (1).ipynb"
+      ],
+      "cells": [
+        15,
+        17,
+        20,
+        34,
+        37
+      ],
+      "title": "Validation/test split is unused in reported evaluation",
+      "snippet": "validation_data, test_data = train_test_split(\n    golden_data,\n    test_size=0.50,\n    random_state=42,\n    stratify=golden_data[\"true_code\"]\n)\n...\nmrr = mean_reciprocal_rank(golden_data)",
+      "failure_trigger": "Normal execution: every downstream recall, comparison, MRR and JSON report evaluates golden_data, never validation_data or test_data.",
+      "impact": "The final metrics pool validation and held-out examples; the added split provides no independent test estimate. If validation is used for selecting weights/thresholds later, reported metrics will include tuned-on examples.",
+      "fix": "Use validation_data for comparisons/tuning, freeze settings, then compute and label final test metrics exclusively on test_data; export split membership.",
+      "classification": "actual evaluation wiring defect; tuning leakage is conditional, not demonstrated",
+      "notebook": "Hybrid_RAG_Retrieval_Eval_Pipeline (1).ipynb",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/Hybrid_RAG_Retrieval_Eval_Pipeline%20(1).ipynb",
+      "verification": "SOURCE_CONFIRMED",
+      "audit_id": "F09"
+    },
+    {
+      "id": "LLM-5",
+      "severity": "P2",
+      "notebooks": [
+        "LLM_Eval_Regression_Testing_Framework.ipynb"
+      ],
+      "cells": [
+        7
+      ],
+      "title": "Failure-rate metric ignores invalid model responses",
+      "snippet": "failure_rate = (\n        results[\"prediction\"]\n        .isin([\n            \"UNKNOWN\",\n            \"ERROR\"\n        ])\n        .mean()\n    )",
+      "failure_trigger": "A substituted model returns None, an empty string, an unrecognized label or a misspelled/case-variant label rather than the two exact sentinels.",
+      "impact": "Invalid outputs are scored incorrect for accuracy but counted as successful responses in failure_rate. For example one invalid response in 30 cases yields 0% reported failure instead of 3.33%; two invalid responses violate the configured 5% threshold while failure_rate still reports zero. Other quality gates might independently block, but the failure gate itself is wrong.",
+      "fix": "Validate/normalize prediction against the allowed label set immediately after model invocation, classify all invalid outputs as failures, and retain raw outputs/errors for diagnosis.",
+      "classification": "actual supported-model-adapter correctness defect",
+      "notebook": "LLM_Eval_Regression_Testing_Framework.ipynb",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/LLM_Eval_Regression_Testing_Framework.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F10"
+    },
+    {
+      "id": "LLM-2",
+      "severity": "P2",
+      "notebooks": [
+        "LLM_Eval_Regression_Testing_Framework.ipynb"
+      ],
+      "cells": [
+        7,
+        15
+      ],
+      "title": "Confusion matrix omits failed predictions",
+      "snippet": "ConfusionMatrixDisplay.from_predictions(\n    golden_data[\"expected_label\"],\n    candidate_results[\"prediction\"],\n    labels=LABELS,\n    xticks_rotation=45\n)",
+      "failure_trigger": "Any model returns UNKNOWN or ERROR (both supported by evaluate_model), or any label outside LABELS.",
+      "impact": "Explicit labels excludes the extra prediction columns, dropping those observations from the displayed matrix; matrix row totals no longer match evaluation support and visually conceal failures. The supplied candidate may have no such failures, so this is a supported-path defect rather than a claimed current execution failure.",
+      "fix": "Include UNKNOWN, ERROR and all observed prediction labels in the matrix, or separately display failure counts and verify displayed totals equal the evaluation set.",
+      "classification": "actual supported-path visualization bug",
+      "notebook": "LLM_Eval_Regression_Testing_Framework.ipynb",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/LLM_Eval_Regression_Testing_Framework.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F11"
+    },
+    {
+      "id": "LLM-4",
+      "severity": "P2",
+      "notebooks": [
+        "LLM_Eval_Regression_Testing_Framework.ipynb"
+      ],
+      "cells": [
+        16
+      ],
+      "title": "Deployment gate fails open on nonfinite metrics",
+      "snippet": "if (\n        candidate[\"accuracy\"]\n        < MIN_ACCURACY\n    ):\n...\n\"decision\":\n            \"PASS\"\n            if not reasons\n            else \"FAIL\",",
+      "failure_trigger": "Caller supplies NaN accuracy/F1/failure_rate and NaN class change, for example from missing or empty upstream evaluation slices.",
+      "impact": "Every ordered comparison with NaN is false, leaving reasons empty and returning PASS. Confirmed with stdlib-only extraction of the exact deployment_gate function and a minimal class-results stub: decision PASS, all reported changes NaN.",
+      "fix": "Before threshold comparisons, reject missing/nonfinite/out-of-range baseline/candidate metrics, empty class results and nonfinite class changes; return an explicit INVALID_EVALUATION failure.",
+      "classification": "actual public-helper validation defect; supplied fixed dataset does not itself establish this trigger",
+      "notebook": "LLM_Eval_Regression_Testing_Framework.ipynb",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/LLM_Eval_Regression_Testing_Framework.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F12"
+    },
+    {
+      "notebook": "LLM_cost_Autopilot.ipynb",
+      "cell_index": 35,
+      "severity": "P2",
+      "classification": "actual_bug",
+      "title": "Dashboard total_tokens omits output tokens",
+      "snippet": "total_tokens=(\"input_tokens\", \"sum\"),",
+      "failure_trigger": "Every successful request has output_tokens, but the dashboard sums only input_tokens under the name total_tokens. For the short default prompt this omits the 100 estimated output tokens.",
+      "suggested_fix": "Create per-request total_tokens = input_tokens + output_tokens and aggregate it, or rename to input_tokens.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        35
+      ],
+      "fix": "Create per-request total_tokens = input_tokens + output_tokens and aggregate it, or rename to input_tokens.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/LLM_cost_Autopilot.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F13"
+    },
+    {
+      "severity": "P2",
+      "notebook": "ModelData_Drift_Detection.ipynb",
+      "cell_index": 22,
+      "related_cells": [
+        15
+      ],
+      "classification": "actual_artifact_contract_bug_on_reload",
+      "title": "Saved reference profile cannot serve as monitor_batch reference metrics",
+      "snippet": "reference_profile = {\n    \"features\": FEATURES,\n    \"X_reference\": X_reference,\n    \"accuracy\": reference_accuracy,\n    \"confidence\": reference_confidence,\n    \"positive_rate\": reference_positive_rate\n}",
+      "failure_trigger": "Reloading reference_profile.joblib and supplying it as reference_metrics to monitor_batch. Cell 15 calls reference_metrics[\"confidence\"].mean() and reference_metrics[\"predictions\"].mean(); the artifact stores a scalar confidence and positive_rate, and has no predictions key.",
+      "evidence": "Cell 6 reduces confidence to confidence.mean() and predictions to predictions.mean(); cell 22 persists those reduced values. Cell 15 requires batch arrays, including missing predictions. The fresh-kernel monitoring function cannot consume the saved reference profile through its declared metrics argument.",
+      "suggested_fix": "Persist the complete reference_metrics dictionary with predictions/confidence arrays, or change monitor_batch to explicitly accept the persisted aggregate schema and use confidence/positive_rate scalars. Test monitoring after reloading the profile.",
+      "checked_limits": "The notebook default run passes the original in-memory reference_metrics and therefore avoids this issue; artifact reload monitoring is not exercised by its smoke test.",
+      "cells": [
+        22
+      ],
+      "fix": "Persist the complete reference_metrics dictionary with predictions/confidence arrays, or change monitor_batch to explicitly accept the persisted aggregate schema and use confidence/positive_rate scalars. Test monitoring after reloading the profile.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/ModelData_Drift_Detection.ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F14"
+    },
+    {
+      "severity": "P2",
+      "notebook": "Neural_Network_JEV (1).ipynb",
+      "cell_index": 3,
+      "related_cells": [
+        2,
+        7,
+        23
+      ],
+      "classification": "evaluation_design_flaw_with_unmeasured_actual_overlap",
+      "title": "Split synthetic text by template before reporting generalization metrics",
+      "snippet": "train_data, temp_data = train_test_split(\n    data,\n    test_size=0.40,\n    random_state=RANDOM_STATE,\n    stratify=data[\"document_type\"]\n)",
+      "failure_trigger": "Using validation_accuracy/test_accuracy as evidence of generalization to new enterprise documents. Cell 2 randomly repeats only eight templates per class and cell 3 splits rows rather than template groups; the RESUME class generates 100 rows from eight constant strings with no substitutions. Repeated template families can enter every split.",
+      "evidence": "AST inspection confirms all eight RESUME strings contain no formatting placeholders, so its 100 rows necessarily include at least 92 duplicate occurrences. Neither split groups by source template nor deduplicates text; vectorizer fitting itself correctly occurs only on train_data.",
+      "suggested_fix": "Track template_id during generation and group-disjoint split templates; also assert that normalized text and template IDs do not overlap across partitions. For enterprise generalization claims, evaluate on independently collected documents.",
+      "checked_limits": "Did not recreate NumPy/sklearn seeded generation or splitting; exact train/test duplicate count is unmeasured. This does not establish a fresh accuracy value or prove all test rows are duplicates.",
+      "cells": [
+        3
+      ],
+      "fix": "Track template_id during generation and group-disjoint split templates; also assert that normalized text and template IDs do not overlap across partitions. For enterprise generalization claims, evaluate on independently collected documents.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/Neural_Network_JEV%20(1).ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F15"
+    },
+    {
+      "severity": "P2",
+      "notebook": "Neural_Network_JEV (1).ipynb",
+      "cell_index": 19,
+      "classification": "actual_bug_in_optional_online_path",
+      "title": "Successful JEV calls do not return a usable routing decision",
+      "snippet": "response = ask_jev(row)\n\nreturn {\n    \"decision\": \"JEV_RESPONSE\",\n    \"source\": \"jev\",\n    \"response\": response\n}",
+      "failure_trigger": "Calling route_document(row, use_jev=True) for any row passing hard_policy, when ask_jev succeeds. Every successful response returns JEV_RESPONSE instead of one of AUTO_PROCESS/HUMAN_REVIEW/ESCALATE, regardless of the service answer.",
+      "evidence": "Stdlib reproduction extracted cells 12, 13, 19 and mocked ask_jev to return {\"routing\":\"AUTO_PROCESS\"}. Online result was {\"decision\":\"JEV_RESPONSE\",\"source\":\"jev\",\"response\":{\"routing\":\"AUTO_PROCESS\"}}, while the same row routed offline as AUTO_PROCESS. Cell 25 defines the three valid decisions but only checks offline inference_data.",
+      "suggested_fix": "Parse the documented JEV response schema, validate the selected route against the three allowed decisions, and return it in decision; use HUMAN_REVIEW for absent/invalid choices. Add a mocked online-path test.",
+      "checked_limits": "Optional path is not invoked in the default notebook; no live JEV schema or endpoint behavior verified.",
+      "cells": [
+        19
+      ],
+      "fix": "Parse the documented JEV response schema, validate the selected route against the three allowed decisions, and return it in decision; use HUMAN_REVIEW for absent/invalid choices. Add a mocked online-path test.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/Neural_Network_JEV%20(1).ipynb",
+      "verification": "REPRODUCED",
+      "audit_id": "F16"
+    },
+    {
+      "id": "LLM-3",
+      "severity": "P2",
+      "notebooks": [
+        "Prompt_Versioning_AB_Testing_Platform.ipynb"
+      ],
+      "cells": [
+        17,
+        18,
+        19,
+        26
+      ],
+      "title": "Rerunning experiment cell counts deterministic duplicates as independent observations",
+      "snippet": "experiment_logs.append(\n        log\n    )\n...\nfor request_id in range(\n    REQUESTS\n):\n...\n    run_request(\n        subject_id=request_id,",
+      "failure_trigger": "Rerun cell 19 without resetting cell 17, a normal interactive notebook action.",
+      "impact": "The same subject/query/variant is appended again with exactly the same deterministic correctness and latency. Aggregation reports twice as many requests and total cost; bootstrap resamples duplicate rows as independent subjects and can narrow uncertainty despite no new independent evidence.",
+      "fix": "Make a run explicit: reset logs at the start of cell 19, or assign run IDs and deduplicate by experiment/subject/request and bootstrap independent subject clusters.",
+      "classification": "actual notebook rerun/reproducibility bug",
+      "notebook": "Prompt_Versioning_AB_Testing_Platform.ipynb",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/Prompt_Versioning_AB_Testing_Platform.ipynb",
+      "verification": "SOURCE_CONFIRMED",
+      "audit_id": "F17"
+    },
+    {
+      "notebook": "LLM_cost_Autopilot.ipynb",
+      "cell_index": 15,
+      "severity": "P3",
+      "classification": "demo_limit_on_reuse",
+      "title": "Daily budget is a process-lifetime counter",
+      "snippet": "def budget_remaining():\n    return DAILY_BUDGET - spent_today",
+      "failure_trigger": "For a kernel that stays alive across a UTC/local day boundary, spent_today is never reset. Conversely rerunning cell 10 resets spend during the same day. The advertised daily cap therefore cannot be enforced across days or notebook restarts.",
+      "suggested_fix": "Track date plus spend in persistent state; reset atomically when the defined billing day changes. Explicitly label session budget if persistence is intentionally out of scope.",
+      "checked_limits": "Static review only; notebook not executed. No dependencies installed or downloaded.",
+      "cells": [
+        15
+      ],
+      "fix": "Track date plus spend in persistent state; reset atomically when the defined billing day changes. Explicitly label session budget if persistence is intentionally out of scope.",
+      "source": "https://github.com/pablorod11/ML-AI-Projects/blob/87c9d2052b889e35cfbde6dd085a6e9bba36e7e5/LLM_cost_Autopilot.ipynb",
+      "verification": "SOURCE_CONFIRMED",
+      "audit_id": "F18"
+    }
+  ],
+  "source_changed": false,
+  "live_api_status": "UNVERIFIED; all network connections blocked during notebook execution"
+}
