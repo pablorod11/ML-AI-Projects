@@ -1,0 +1,46 @@
+{
+  "sources": {
+    "emilkowalski/skills": {
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "branch": "main"
+    },
+    "pbakaus/impeccable": {
+      "ref": "46b822f7dda9f7dba799a9c7776fdc19b3a93559",
+      "branch": "main"
+    },
+    "Leonxlnx/taste-skill": {
+      "ref": "63aba5f43b5056758b15bbe7d683da8c86a7a7ad",
+      "branch": "main"
+    },
+    "vercel-labs/agent-skills": {
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "branch": "main"
+    },
+    "VoltAgent/awesome-design-md": {
+      "ref": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "branch": "main"
+    },
+    "affaan-m/ECC": {
+      "ref": "5af4395e5c52643b7f5ecc716079cd253504b354",
+      "branch": "main"
+    },
+    "openai/skills": {
+      "ref": "49f948faa9258a0c61caceaf225e179651397431",
+      "branch": "main"
+    }
+  },
+  "metadata_adaptations": [
+    "pick-ui-library: translated disable-model-invocation to openai.yaml policy",
+    "prototype: translated disable-model-invocation to openai.yaml policy",
+    "review-animations: translated disable-model-invocation to openai.yaml policy"
+  ],
+  "validation": {
+    "codex_skill_validator": "23/23 passed",
+    "ecc_strict_skill_validator": "23 passed",
+    "ecc_surface_checks": "4/4 passed in isolated fixture including upstream MLE skill",
+    "impeccable_engine": "impeccable-engine 0.1.16",
+    "taste_draw": "sector library loaded",
+    "playwright_cli": "help command passed"
+  },
+  "scope": "Reusable skill coordination. Upstream specialist skills installed separately; no product UI validated."
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: Awesome Design References
+  short_description: Choose real design-system references for UI work
+  default_prompt: Use $awesome-design-references to help with this UI task.

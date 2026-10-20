@@ -1,0 +1,4 @@
+interface:
+  display_name: Design Workflow
+  short_description: Coordinate design direction, audits, and browser checks
+  default_prompt: Use $design-workflow to help with this UI task.
