@@ -1,4 +1,4 @@
-# Napoleon Workflow
+# Napolean
 
 A Codex skill that coordinates specialists through one commander responsible for the integrated result.
 
@@ -6,7 +6,7 @@ Small tasks stay inline. Larger tasks use bounded missions, clear file ownership
 
 ## What it combines
 
-- **Napoleon commander approach:** The coordinator owns scope, shared contracts, task assignment, integration, and final checks.
+- **Napolean commander approach:** The coordinator owns scope, shared contracts, task assignment, integration, and final checks.
 - **Superpowers:** Selects the relevant discovery, planning, debugging, and execution process.
 - **Graphify:** Helps explore repository relationships; findings are checked against source files.
 - **Vercel Agent Skills:** Supplies task-specific guidance for the relevant stack.
@@ -23,9 +23,9 @@ Clone this repository, then copy the skill folder into your personal Codex skill
 
 ```sh
 git clone https://github.com/pablorod11/ML-AI-Projects.git
-mkdir -p ~/.codex/skills/napoleon-workflow
-cp ML-AI-Projects/napoleon-workflow/SKILL.md ~/.codex/skills/napoleon-workflow/
-cp -R ML-AI-Projects/napoleon-workflow/agents ML-AI-Projects/napoleon-workflow/references ~/.codex/skills/napoleon-workflow/
+mkdir -p ~/.codex/skills/napolean
+cp ML-AI-Projects/napolean/SKILL.md ~/.codex/skills/napolean/
+cp -R ML-AI-Projects/napolean/agents ML-AI-Projects/napolean/references ~/.codex/skills/napolean/
 ```
 
 If you use a custom `CODEX_HOME`, use its `skills` directory instead. Avoid overwriting a modified installation without reviewing the differences.
@@ -33,13 +33,13 @@ If you use a custom `CODEX_HOME`, use its `skills` directory instead. Avoid over
 ## Use
 
 ```text
-Use $napoleon-workflow to fix this issue and verify the integrated result.
+Use $napolean to fix this issue and verify the integrated result.
 ```
 
 Or:
 
 ```text
-Use $napoleon-workflow to coordinate these independent module changes.
+Use $napolean to coordinate these independent module changes.
 ```
 
 ## Dependencies and scope

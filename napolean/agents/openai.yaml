@@ -1,0 +1,4 @@
+interface:
+  display_name: "Napolean"
+  short_description: "Coordinate specialists, simplify, and verify results"
+  default_prompt: "Use $napolean to coordinate this task and verify the integrated result."

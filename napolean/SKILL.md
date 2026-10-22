@@ -1,9 +1,9 @@
 ---
-name: napoleon-workflow
-description: Use when a user requests the Napoleon commander workflow, or when a substantial repository task needs coordinated specialists, explicit assumption checks, and integrated verification. Also use when combining the named Napoleon, Superpowers, Ponytail, Euclidean, Graphify, design, and writing workflows.
+name: napolean
+description: Use when a user requests the Napolean commander workflow, or when a substantial repository task needs coordinated specialists, explicit assumption checks, and integrated verification. Also use when combining the named Napoleon, Superpowers, Ponytail, Euclidean, Graphify, design, and writing workflows.
 ---
 
-# Napoleon workflow
+# Napolean
 
 One commander owns the result. Specialists receive bounded missions. Scale the process to the task; a small edit stays inline.
 
