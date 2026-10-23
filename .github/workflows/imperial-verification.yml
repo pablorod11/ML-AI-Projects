@@ -1,5 +1,8 @@
 name: Imperial checkpoint verification
 on:
+  push:
+    branches: [imperial-checkpoint-security-verification]
+    paths: ["imperial-llm/**", ".github/workflows/imperial-verification.yml"]
   workflow_dispatch:
 permissions:
   contents: read
