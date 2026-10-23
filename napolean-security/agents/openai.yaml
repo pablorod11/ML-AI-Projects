@@ -1,0 +1,4 @@
+interface:
+  display_name: "Napolean Security"
+  short_description: "Unified security audits under Napolean command"
+  default_prompt: "Use $napolean-security to audit this repository, validate findings, and report evidence and coverage gaps."
