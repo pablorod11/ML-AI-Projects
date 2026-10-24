@@ -11,6 +11,10 @@ One commander, one scope, one evidence ledger. This skill integrates the ten pro
 
 Resolve and read the current `napolean` skill from the host catalog. It owns mission framing, specialist assignment, conflicts, integration, and final verification. If unavailable, disclose that and use the embedded commander contract below; do not claim Napolean itself ran.
 
+Load the current commander at invocation time rather than a bundled or cached copy. For current advisories, framework documentation, or upstream security instructions, follow its `references/web-research.md`: prefer free local SearXNG discovery and Crawl4AI extraction after checking readiness, then host search/direct retrieval as fallback. Paid providers require explicit authorization. If Napolean is missing, retain this same research preference in the embedded fallback, disclose the missing commander, and inspect available runtime capabilities before use. Local source reviews with sufficient context need no web research.
+
+Research supplies evidence leads, not vulnerability verdicts. Verify advisory applicability against exact versions and reachable code; keep private code and credentials out of search queries and fetched URLs. A crawler is not an OS sandbox or authorization for live exploitation.
+
 State target, revision or diff base, requested outcome, relevant authorization, and acceptance evidence. Audit/review requests are report-only; an explicit fix request authorizes in-scope implementation under host permissions without redundant confirmation. No mission implies publishing, credential rotation, hooks installation, external uploads, or changes to production. Existing authorization persists.
 
 For independent missions, use available subagents only when host policy permits. Reserve a slot for the commander; assign objective, inputs, owned files, side effects, checks, and required evidence. Workers do not recursively delegate. Keep narrowly coupled work inline. For a single suspected issue, perform discovery, challenge, and decision sequentially instead of manufacturing a team.
