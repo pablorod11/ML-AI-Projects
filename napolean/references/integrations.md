@@ -30,7 +30,7 @@ Prefer its installed SKILL.md; otherwise read the upstream skill when available.
 
 ## Optional web research
 
-Perplexity supplies optional source discovery; a crawler such as Firecrawl supplies scoped page extraction. Read [web-research.md](web-research.md) for selection, budgets, provenance, and fallbacks. Discover actual host tools before choosing an adapter. These references do not install services or activate API access.
+Prefer free local SearXNG discovery and Crawl4AI extraction. The planned runtime is `<local-research-runtime>`; its existence, dependencies, and live readiness must be verified before use. Read [web-research.md](web-research.md) for conditional invocation, budgets, provenance, and fallbacks. Local operation still sends queries to upstream search engines and fetches remote websites. This preference does not authorize paid APIs, installation, or cloud services. These references do not install or activate the runtime.
 
 ## Conflicts
 

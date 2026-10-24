@@ -17,7 +17,7 @@ Resolve named skills from the host catalog and read their current instructions b
 
 Read [references/integrations.md](references/integrations.md) when selecting a dependency or handling one that is missing.
 
-When a task needs current external evidence or linked documentation coverage, read [references/web-research.md](references/web-research.md). Use existing search and direct fetching first; optionally route source discovery to Perplexity and bounded extraction to an available crawler such as Firecrawl. Keep the commander responsible for verification and disclose unavailable integrations. Local edits with sufficient context need no web-research stage.
+When a task needs current external evidence or linked documentation coverage, read [references/web-research.md](references/web-research.md). Prefer the user-selected free local stack: SearXNG for source discovery and Crawl4AI for bounded extraction, after verifying runtime readiness. Use host search and direct retrieval when the local stack is unavailable. Keep the commander responsible for verification and disclose unavailable integrations. Local edits with sufficient context need no web-research stage.
 
 Use Graphify for unfamiliar repository relationships when mapping will reduce uncertainty. Inspect installed capabilities and current documentation before choosing commands. Check graph freshness against the current revision and modified files. Follow graph findings to actual source and callers; label inferred edges. A graph is navigation evidence, not proof that a caller is absent. Fall back to `rg`, manifests, and source inspection when unavailable, and disclose that Graphify did not run.
 

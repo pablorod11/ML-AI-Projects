@@ -4,12 +4,27 @@ Use this lane when current external information or coverage across linked docume
 
 ## Choose the smallest useful capability
 
-1. Prefer existing host search and direct page retrieval for a few facts or known URLs. Prefer repository tools for actual source files, revision history, and manifests.
-2. If installed and authorized, use Perplexity Search for source discovery or an additional search perspective. Use its research/Agent API only when a multi-step investigation warrants another model's cost and latency. Generated answers are leads; inspect their cited primary sources before relying on material claims.
-3. Use an available crawler such as Firecrawl when the question requires several linked pages, rendered content, or an inspectable documentation collection. Start with site mapping or known URLs and selected-page extraction; recurse only when the coverage requirement justifies it.
-4. If a provider is unavailable, use the host's search/fetch tools and state the fallback when material. Do not imply Perplexity or a crawler ran. Missing optional providers do not block independent source work.
+1. Prefer the user-selected free local stack: SearXNG for public source discovery and Crawl4AI for bounded extraction. For actual repository source, revisions, and manifests, prefer repository tools. Skip discovery when a known primary URL is sufficient.
+2. Verify the local runtime before invoking it: inspect its scripts and configuration, confirm the virtual environment and dependencies, check the configured local search endpoint, and establish readiness with a bounded public search or fetch. A planned directory or running process alone does not establish working search or extraction.
+3. If the local stack is unavailable or fails, use available host search and direct page retrieval; disclose the fallback when material. Missing local services do not block independent source work. Do not claim SearXNG or Crawl4AI ran when a fallback was used.
+4. Do not substitute paid Perplexity or Firecrawl services for the chosen free stack without explicit user authorization. Do not install packages or enable new services incidentally.
 
-Discover capabilities from the current host tool catalog. Read the selected adapter's current documentation and supported arguments; do not invent tool names or transplant stale endpoint/model examples. This skill contains routing instructions, not an API client, MCP configuration, or crawler runtime. Setup, credentials, paid subscriptions, and new installations are separate tasks.
+### Local invocation
+
+The local runtime directory is `<local-research-runtime>`. On 2026-10-24, the author’s local setup passed dependency checks, one public search, and one public single-page extraction. This smoke test does not establish readiness on other hosts. Check current readiness before reuse; services do not automatically start at login. After inspecting the scripts and verifying their supported arguments and prerequisites, use that directory as the working directory:
+
+```bash
+.venv/bin/python start-search.py
+```
+
+Start the search service only when needed and within the existing task authority; inspect its binding and configuration first. Verify the configured endpoint is ready before dependent searches. Once the runtime and command interface are verified:
+
+```bash
+.venv/bin/python research.py search "QUERY"
+.venv/bin/python research.py crawl "URL"
+```
+
+Replace placeholders with minimal public inputs. Pass arguments as literal values using proper shell quoting or structured arguments; never interpolate untrusted text into shell code. Inspect the wrapper's actual bounds and output before assuming it enforces the collection policy below. This skill contains routing instructions, not the runtime itself. Local SearXNG forwards queries to configured upstream engines; Crawl4AI fetches remote sites. Local execution does not make collection offline or authorize disclosure of private inputs.
 
 ## Bounded collection
 
@@ -33,9 +48,12 @@ When comparing providers, use the same representative tasks and record verified 
 
 ## Authoritative references
 
-- [Perplexity Search API](https://docs.perplexity.ai/docs/search/quickstart): discovery, filters, and search budgets.
-- [Official Perplexity MCP server](https://github.com/perplexityai/modelcontextprotocol): current integration and available tools.
-- [Firecrawl introduction](https://docs.firecrawl.dev/introduction): extraction and integration options.
-- [Firecrawl crawl documentation](https://docs.firecrawl.dev/features/crawl): linked-page collection and controls.
+- [SearXNG documentation](https://docs.searxng.org/): upstream search configuration and operation.
+- [SearXNG Search API](https://docs.searxng.org/dev/search_api.html): search parameters and response formats.
+- [Crawl4AI documentation](https://docs.crawl4ai.com/): extraction configuration and supported interfaces.
 
-These sources were inspected for the design on 2026-10-24. Resolve current adapter instructions before execution. No performance comparison or provider installation is implied.
+Resolve current documentation and inspect the local wrapper before execution. The smoke test does not establish accuracy, complete coverage, or compatibility on other hosts. No performance comparison is implied.
+
+## Current local limitations
+
+The wrapper accepts up to 10 explicit public HTTP(S) URLs, enforces a 120-second batch timeout and 30-second page timeout, checks robots rules, and truncates returned Markdown at 50,000 characters per page. It does not recursively discover pages. The initial-URL checks reject credentials and private/special IP addresses; they are not network containment for redirects, page subresources, or DNS changes. Use only trusted public documentation sites; do not describe this as a sandbox or use it for executing suspicious target code. Search currently includes Bing, DuckDuckGo, and Wikipedia; the initial DuckDuckGo check encountered a CAPTCHA and the wrapper reported it. No CAPTCHA bypass was attempted.
