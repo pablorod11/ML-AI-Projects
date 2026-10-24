@@ -59,7 +59,6 @@ packages = [
     "src.post_training",
     "src.post_training.rewards",
     "src.tokenizer",
-    "ui",
 ]
 
 [tool.setuptools.package-data]

@@ -2,6 +2,8 @@
 
 ## Checkpoint security requirements
 
+This source snapshot includes the model and training packages, but excludes the optional Streamlit `ui/` application described in the upstream documentation below. The UI is not part of this package.
+
 Active Python checkpoint entrypoints require stable PyTorch >=2.6.0 and use restricted `weights_only=True` loading without an unrestricted fallback. This floor addresses CVE-2025-32434 only; use a maintained release with current fixes and trusted checkpoint files. Tensor/primitive metadata mappings are supported; custom pickled classes are not. Do not disable restricted loading to bypass an error.
 
 Historical experiments used Intel macOS and PyTorch 2.2.2. That environment is now refused for checkpoint loading. Official macOS x86 wheels ended after 2.2. Use a supported Linux or Apple Silicon environment, record exact dependency versions, and verify checkpoint roundtrips and parity before retraining. The requirement is a security minimum, not an exact reproduction lock. Historical archives and published assets remain unchanged; use the remediation source bundle for corrected entrypoints.
