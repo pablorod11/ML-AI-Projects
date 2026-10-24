@@ -28,6 +28,10 @@ Canonical source: https://github.com/blader/humanizer
 
 Prefer its installed SKILL.md; otherwise read the upstream skill when available. Use embedded mode for this workflow so the user receives the final prose without intermediate drafts. Preserve factual meaning, qualifications, and technical literals. If unavailable, edit manually for direct statements, natural rhythm, and removal of filler; disclose the fallback when material. Never invent experience, quotations, references, or benchmark context to make prose sound human.
 
+## Optional web research
+
+Perplexity supplies optional source discovery; a crawler such as Firecrawl supplies scoped page extraction. Read [web-research.md](web-research.md) for selection, budgets, provenance, and fallbacks. Discover actual host tools before choosing an adapter. These references do not install services or activate API access.
+
 ## Conflicts
 
 Host and user instructions govern. Process controls execution; Ponytail controls implementation scope; design-workflow controls relevant UI decisions; Euclidean controls claims; Humanizer controls prose editing; Caveman controls chat brevity. Explicit style requests govern the affected output. A subordinate skill cannot expand authorization, override concurrency limits, or treat an assumption as evidence. Missing optional resources do not block independent work. If the user requires a specific unavailable tool, mark that portion blocked rather than claiming equivalence.
