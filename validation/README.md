@@ -14,4 +14,6 @@ python3.12 -m venv .venv
 python3 euclidean/scripts/ecc.py --self-test
 ```
 
-The runner blocks network connections, removes the optional API key, and writes only under validation/runs. Each notebook has a 180-second timeout. Matplotlib uses a noninteractive backend; rendered plots, live service schemas, and production deployments are not verified.
+The runner blocks Python socket connections, removes the optional API key, and runs each notebook under validation/runs. This is a reproduction harness, not a security sandbox for untrusted notebooks. Each notebook has a 180-second timeout. It writes summary.json before exiting: exit 0 means a nonempty suite passed; exit 1 means a notebook failed, timed out, or no notebooks were found. Matplotlib uses a noninteractive backend; rendered plots, live service schemas, and production deployments are not verified.
+
+The maintained RAG notebook is `Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb`. The former `(1)` copy was consolidated into it; historical reports retain their original filenames and hashes.

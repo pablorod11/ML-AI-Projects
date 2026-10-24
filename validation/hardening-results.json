@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-24",
+  "base_revision": "365063fb59f5885bb3c818311ff7a8256b25423b",
+  "scope": "Uncommitted validation hardening changes against base revision; hashes identify notebook contents.",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+  "focused_tests": 23,
+  "notebooks": [
+    {
+      "file": "Copy_of_Model_Regression_Detection_System.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 22.01,
+      "startup_stderr": "",
+      "sha256": "bbd1952b7a7abde497e63ddf3ba34932637f0e7ff471da7959f0348a7bf37785",
+      "code_cells": 31
+    },
+    {
+      "file": "Enterprise_Autocoding_MLOps_Platform.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 19.16,
+      "startup_stderr": "",
+      "sha256": "b1aa4fd7e40e4e2feb37087e66b40352c0093bde11f29060876a9e804c9f8669",
+      "code_cells": 54
+    },
+    {
+      "file": "HITL_Review_Pipeline.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 18.27,
+      "startup_stderr": "",
+      "sha256": "8d5ecdfd44406d79e7c0b4bbc77f83adcfb6172a29fa63c4a6f8d4d4312135cf",
+      "code_cells": 36
+    },
+    {
+      "file": "Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 22.05,
+      "startup_stderr": "",
+      "sha256": "897e8e38e06e9edf60884397cb72f225fc152d30f505bae0258c6f983e47a839",
+      "code_cells": 40
+    },
+    {
+      "file": "Image_Classification_Pipeline.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 12.8,
+      "startup_stderr": "",
+      "sha256": "dd732041d8f22e6d3b7bbe33974aa2bed594d3107265dfe64d2344b762b0e4bb",
+      "code_cells": 18
+    },
+    {
+      "file": "LLM_Eval_Regression_Testing_Framework.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 17.92,
+      "startup_stderr": "Could not save font_manager cache Lock error: Matplotlib failed to acquire the following lock file:\n    <repository>/validation/runs/matplotlib/fontlist-v3.11.0.json.matplotlib-lock\nThis maybe due to another process holding this lock file.  If you are sure no\nother Matplotlib process is running, remove this file and try again.\n",
+      "sha256": "bef3e4afde261fd0b1e62afc597f013ce3dbe67bc7a8f8c09887bfe3a49dbbc5",
+      "code_cells": 22
+    },
+    {
+      "file": "LLM_cost_Autopilot.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 11.92,
+      "startup_stderr": "Could not save font_manager cache Lock error: Matplotlib failed to acquire the following lock file:\n    <repository>/validation/runs/matplotlib/fontlist-v3.11.0.json.matplotlib-lock\nThis maybe due to another process holding this lock file.  If you are sure no\nother Matplotlib process is running, remove this file and try again.\n",
+      "sha256": "3b47249456e597065049cf860e7e6fb8d1f44fe952903e4fba04c4efa4c47f90",
+      "code_cells": 37
+    },
+    {
+      "file": "Linear_Regression_Model.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 13.8,
+      "startup_stderr": "Could not save font_manager cache Lock error: Matplotlib failed to acquire the following lock file:\n    <repository>/validation/runs/matplotlib/fontlist-v3.11.0.json.matplotlib-lock\nThis maybe due to another process holding this lock file.  If you are sure no\nother Matplotlib process is running, remove this file and try again.\n",
+      "sha256": "24448aa9572a0a9e6138afce54c0aa39198cada72bf882f393fe2a24fb8235e9",
+      "code_cells": 18
+    },
+    {
+      "file": "ModelData_Drift_Detection.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 30.33,
+      "startup_stderr": "Could not save font_manager cache Lock error: Matplotlib failed to acquire the following lock file:\n    <repository>/validation/runs/matplotlib/fontlist-v3.11.0.json.matplotlib-lock\nThis maybe due to another process holding this lock file.  If you are sure no\nother Matplotlib process is running, remove this file and try again.\n",
+      "sha256": "02ddd83831804845f8f59839dfe1fba2a44302a4377a7c7eee67b293be350936",
+      "code_cells": 26
+    },
+    {
+      "file": "Neural_Network_JEV (1).ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 17.43,
+      "startup_stderr": "Could not save font_manager cache Lock error: Matplotlib failed to acquire the following lock file:\n    <repository>/validation/runs/matplotlib/fontlist-v3.11.0.json.matplotlib-lock\nThis maybe due to another process holding this lock file.  If you are sure no\nother Matplotlib process is running, remove this file and try again.\n",
+      "sha256": "17fda95d12b0ac7271431f8ca9fa7621957c372f4dc37adc2de70c066035fd59",
+      "code_cells": 26
+    },
+    {
+      "file": "Prompt_Versioning_AB_Testing_Platform.ipynb",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 11.97,
+      "startup_stderr": "Could not save font_manager cache Lock error: Matplotlib failed to acquire the following lock file:\n    <repository>/validation/runs/matplotlib/fontlist-v3.11.0.json.matplotlib-lock\nThis maybe due to another process holding this lock file.  If you are sure no\nother Matplotlib process is running, remove this file and try again.\n",
+      "sha256": "a8090659050605433171793ad15a13918631da149c45b5737817bb9ae36081b8",
+      "code_cells": 43
+    }
+  ],
+  "notebook_code_cells": 351,
+  "limitations": [
+    "Headless execution; rendered plots not inspected.",
+    "A temporary PATH wrapper returned exit 1 for system_profiler to skip stalled macOS font inventory; Matplotlib used available fonts.",
+    "Some workers emitted font-cache lock warnings; all cells and worker exits passed.",
+    "Live APIs, GPU behavior, multiuser concurrency, production deployment unverified."
+  ]
+}

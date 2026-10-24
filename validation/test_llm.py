@@ -57,7 +57,7 @@ class RegressionTests(unittest.TestCase):
 
     def test_split_used_for_purpose(self):
         from datetime import datetime, timezone
-        source = cells('Hybrid_RAG_Retrieval_Eval_Pipeline (1).ipynb')
+        source = cells('Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb')
         validation = pd.DataFrame({'query':['validation query']})
         test = pd.DataFrame({'query':['test one','test two']})
         seen = []
@@ -72,16 +72,16 @@ class RegressionTests(unittest.TestCase):
                   auto_rate=.5, review_rate=.5, datetime=datetime, timezone=timezone,
                   CONFIG=dict(project='test',version='test',lexical_weight=.5,
                               semantic_weight=.5,top_k=3,confidence_threshold=.5,margin_threshold=.1))
-        exec(source[20], ns)
+        exec(next(cell for cell in source if cell.startswith('comparison_rows =')), ns)
         self.assertEqual(len(seen),12)
         self.assertTrue(all(data is validation for data in seen))
         seen.clear()
         queries = []
         ns['logged_rag_pipeline'] = lambda query: queries.append(query)
-        exec(source[30], ns)
+        exec(next(cell for cell in source if 'demo_queries =' in cell), ns)
         self.assertEqual(queries, test['query'].tolist())
-        exec(source[34], ns)
-        exec(source[37], ns)
+        exec(next(cell for cell in source if 'evaluation_summary = pd.DataFrame' in cell), ns)
+        exec(next(cell for cell in source if cell.startswith('experiment_report =')), ns)
         self.assertTrue(seen and all(data is test for data in seen))
         self.assertEqual(ns['experiment_report']['test_examples'],2)
 

@@ -42,3 +42,4 @@ if __name__=='__main__':
  if args.worker:sys.exit(worker(args.worker))
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:results=list(pool.map(launch,sorted(ROOT.glob('*.ipynb'))))
  (RUNS/'summary.json').write_text(json.dumps(results,indent=2))
+ sys.exit(0 if results and all(r['status']=='PASS' for r in results) else 1)
