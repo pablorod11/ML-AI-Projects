@@ -1,0 +1,41 @@
+{
+  "scope": "Single-run benchmark of mock_llm; costs are estimates, not actual charges.",
+  "results": [
+    {
+      "workload": "repeated",
+      "cache_enabled": false,
+      "requests": 24,
+      "model_calls": 24,
+      "cache_hits": 0,
+      "elapsed_ms": 628.098,
+      "estimated_cost": 0.008418400000000001
+    },
+    {
+      "workload": "repeated",
+      "cache_enabled": true,
+      "requests": 24,
+      "model_calls": 3,
+      "cache_hits": 21,
+      "elapsed_ms": 113.684,
+      "estimated_cost": 0.0010523000000000002
+    },
+    {
+      "workload": "unique",
+      "cache_enabled": false,
+      "requests": 24,
+      "model_calls": 24,
+      "cache_hits": 0,
+      "elapsed_ms": 295.339,
+      "estimated_cost": 0.0009686000000000001
+    },
+    {
+      "workload": "unique",
+      "cache_enabled": true,
+      "requests": 24,
+      "model_calls": 24,
+      "cache_hits": 0,
+      "elapsed_ms": 327.352,
+      "estimated_cost": 0.0009686000000000001
+    }
+  ]
+}
