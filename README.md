@@ -6,6 +6,20 @@ The notebooks use synthetic examples or bundled datasets. Their metrics describe
 
 [Portfolio and demos](https://pablo-rodriguez-portfolio.awakejoy13.chatgpt.site/) · [Recorded validation](validation/CURRENT_RESULTS.md) · [Run the checks](validation/README.md)
 
+## Current project releases
+
+- [Exact-response LRU/TTL cache](caching/README.md): standard-library Python caching with version-aware keys, expiry, bypass controls, and eight documented tests. A simulated repeated-input benchmark reduces mock calls from 24 to three; unique prompts show no reduction.
+- [QuantLab Probability Research](https://huggingface.co/spaces/PabloRod11/quantlab-probability-research): a browser-local workbench with chronological calibration/model selection/evaluation, numerical diagnostics, and audit exports. A separate Python benchmark uses synthetic data; neither establishes a trading edge.
+- [Imperial LLM model 004](https://huggingface.co/spaces/PabloRod11/imperial-llm): an upstream-derived character Transformer adapted for browser inference and continued training. Its card records 6.20% lower next-character test loss on a fresh 64-story same-domain sample. The hardened source download has verified Linux checks; [GitHub integration remains a draft PR](https://github.com/pablorod11/ML-AI-Projects/pull/2), separate from the published Space.
+
+## Resumes
+
+Updated October 27, 2026. Each PDF is two pages and links to current project evidence.
+
+- [Python Developer and Software Engineer](https://pablo-rodriguez-portfolio.awakejoy13.chatgpt.site/python-software-engineer-resume.pdf?v=39)
+- [AI and ML Evaluation](https://pablo-rodriguez-portfolio.awakejoy13.chatgpt.site/ai-mlops-resume.pdf?v=39)
+- [Business Systems and Data Quality](https://pablo-rodriguez-portfolio.awakejoy13.chatgpt.site/business-systems-resume.pdf?v=39)
+
 ## Start here
 
 - **Retrieval:** [Hybrid retrieval and evaluation](Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb) compares lexical, latent semantic, and hybrid retrieval on validation examples, then reports results on a separate held-out test cohort.
