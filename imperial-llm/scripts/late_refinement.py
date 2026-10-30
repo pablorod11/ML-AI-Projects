@@ -47,6 +47,11 @@ def run(root, output):
         raise ValueError('Unexpected baseline identity')
     baseline, checkpoint = load_model(baseline_dir)
     payload, manifest, _, docs = data()
+    if payload['vocab'] != checkpoint['vocab']:
+        raise ValueError('Training and baseline vocabularies differ')
+    for split, key in [('train', 'training_corpus_sha256'), ('val', 'validation_corpus_sha256')]:
+        if manifest['splits'][split]['sha256'] != original[key]:
+            raise ValueError('Training/validation corpus differs from archived baseline')
     windows = fixed_windows(docs['val'], 3702, 64)
     baseline_val = evaluate(baseline, windows)[0]
     if abs(baseline_val - original['validation_ce']) > 1e-5:
@@ -57,6 +62,11 @@ def run(root, output):
         'steps_per_arm': STEPS, 'seed': 1729, 'validation_seed': 3702,
         'baseline_checkpoint_sha256': baseline_sha,
         'source_script_sha256': sha(Path(__file__).read_bytes()),
+        'helper_sha256': {name: sha((root / name).read_bytes()) for name in [
+            'scripts/finetune_stories.py', 'scripts/compare_model_capacity.py',
+            'scripts/compare_story_context.py', 'scripts/refinement_experiment.py',
+            'src/checkpoint.py', 'src/models/transformer.py', 'src/models/attention.py',
+            'src/models/transformer_block.py', 'src/models/mlp.py']},
         'corpus': manifest, 'prompts': PROMPTS, 'seeds': SEEDS,
         'decoding': {'temperature': 0.7, 'top_k': 20, 'new_characters': 160},
         'selection': 'Validation CE only, including unchanged step0; never select on test or prose.',
