@@ -11,9 +11,10 @@ python3.12 -m venv .venv
 .venv/bin/python -m pip install -r validation/requirements.txt
 .venv/bin/python -m unittest discover -s validation -p "test_*.py" -v
 .venv/bin/python validation/run_notebooks.py
-python3 euclidean/scripts/ecc.py --self-test
 ```
 
 The runner blocks Python socket connections, removes the optional API key, and runs each notebook under validation/runs. This is a reproduction harness, not a security sandbox for untrusted notebooks. Each notebook has a 180-second timeout. It writes summary.json before exiting: exit 0 means a nonempty suite passed; exit 1 means a notebook failed, timed out, or no notebooks were found. Matplotlib uses a noninteractive backend; rendered plots, live service schemas, and production deployments are not verified.
 
 The maintained RAG notebook is `Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb`. The former `(1)` copy was consolidated into it; historical reports retain their original filenames and hashes.
+
+The Euclidean skill and its capacity-checker self-tests moved to [agent-skills](https://github.com/pablorod11/agent-skills#check-the-capacity-example). Historical baseline reports retain paths from the revisions they describe.

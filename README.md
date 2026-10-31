@@ -1,6 +1,6 @@
 # ML, AI, and MLOps projects
 
-I use these projects to practice model evaluation, retrieval, monitoring, and confidence-based routing. The repository also contains reusable skills for coordinating engineering work and checking claims.
+I use these projects to practice model evaluation, retrieval, monitoring, and confidence-based routing. Reusable engineering skills now live in the separate [Agent Skills repository](https://github.com/pablorod11/agent-skills).
 
 The notebooks use synthetic examples or bundled datasets. Their metrics describe those examples; they do not establish production accuracy, reliability, or cost savings.
 
@@ -25,7 +25,7 @@ Updated October 27, 2026. Each PDF is two pages and links to current project evi
 - **Retrieval:** [Hybrid retrieval and evaluation](Hybrid_RAG_Retrieval_Eval_Pipeline.ipynb) compares lexical, latent semantic, and hybrid retrieval on validation examples, then reports results on a separate held-out test cohort.
 - **Model quality:** [Model regression detection](Copy_of_Model_Regression_Detection_System.ipynb) compares candidate and baseline models and applies deployment gates.
 - **Human review:** [Human review pipeline](HITL_Review_Pipeline.ipynb) routes low-confidence predictions for review and model retraining.
-- **Agent workflows:** [Napolean](napolean/README.md) coordinates bounded specialist missions and verifies the integrated result. Small tasks stay inline.
+- **Agent workflows:** [Napolean](https://github.com/pablorod11/agent-skills/tree/main/napolean) coordinates bounded specialist missions and verifies the integrated result. Small tasks stay inline.
 
 ## Notebook studies
 
@@ -78,11 +78,6 @@ Plot appearance, live APIs, GPU behavior, shared multiuser concurrency, and prod
 
 ## Reusable engineering skills
 
-These directories contain instructions and supporting references, separate from the notebook demonstrations:
+The skill packages have moved to [pablorod11/agent-skills](https://github.com/pablorod11/agent-skills): Napolean, Napolean Security, Design Workflow, Awesome Design References, and Euclidean. Their instructions, references, examples, and installation documentation are maintained there.
 
-- [Napolean](napolean/README.md): coordinate bounded specialist missions and verify the integrated result. [Integration guidance](napolean/references/integrations.md) covers optional dependencies and source-inspection fallbacks.
-- [Napolean Security](napolean-security/README.md): coordinate scoped security reviews and validate candidate vulnerabilities against evidence.
-- [Design Workflow](design-workflow/README.md): coordinate UI direction, implementation, audits, and browser checks.
-- [Euclidean](euclidean/README.md): check explicit claims against stated premises, with a standalone capacity-checking example.
-
-Follow each skill's installation and dependency instructions. Copying a coordination skill does not install its external runtimes or enable optional integrations. See each skill's documentation for credits and validation limits.
+This repository contains the ML/AI notebooks, the cache project, and their validation tooling. Earlier skill revisions remain available in this repository’s Git history.
