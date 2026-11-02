@@ -1,0 +1,52 @@
+{
+  "release": "004",
+  "prepared_date": "2026-10-21",
+  "destination": "PabloRod11/imperial-llm",
+  "based_on_space_revision": "d82cd96378ef7088905dcc5de8976a731607709e",
+  "model_sha256": "986699bbf0668f6d1aa5da67c373fe53770f7ce5e9efb3e337b5c0d7a42fe376",
+  "checkpoint_sha256": "dfcb696518896e99ae313e1f008d9e46e69c1154582b29aa2b6ec7a53c5facfd",
+  "weights_unchanged_from_measured_candidate": true,
+  "final_test_rescored_for_release": false,
+  "focused_python": {
+    "passed": 18,
+    "failed": 0
+  },
+  "browser": {
+    "passed": 36,
+    "failed": 0,
+    "skipped": 4,
+    "projects": [
+      "chromium",
+      "firefox",
+      "webkit",
+      "phone"
+    ],
+    "skip_reason": "Optional reviewed pixel baselines"
+  },
+  "python_javascript_parity": {
+    "passed": true,
+    "maximum_absolute_error": 9.306707654310742e-06,
+    "tolerance": 0.0001
+  },
+  "node_worker_generation": "PASS",
+  "node_syntax": "PASS",
+  "lint_touched_python": "PASS",
+  "python_syntax": "PASS",
+  "new_regressions": {
+    "validation_only_browser_chart": "RED then GREEN",
+    "validation_history_export": "RED then GREEN"
+  },
+  "manual_browser": "In-app browser training record and validation curve visually inspected; desktop and phone Playwright screenshots inspected.",
+  "ui_scope": "Existing identity preserved; version labels, selected-run metric labels, validation-only series, explanatory note.",
+  "ui_audit": "Touched chart/copy checked against current Vercel Web Interface Guidelines: https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md . No new actionable in-scope findings.",
+  "full_upstream_python": "NOT GREEN on legacy runtime; prior broad run interrupted with6 failures,119 passes and1 skip. Config failure resolved by project-root rerun; compile/RMSNorm/distributed runtime issues remain. See evidence/full-tests.log and evidence/upstream-runtime-check.log.",
+  "coverage": "NOT MEASURED",
+  "physical_mobile_device": "UNVERIFIED",
+  "remote_deployment": "NOT PERFORMED",
+  "authentication": "No HF_TOKEN, HUGGING_FACE_HUB_TOKEN or cached Hugging Face token present.",
+  "limitations": [
+    "Lower sampled CE does not establish better coherence or assistant capability.",
+    "Single-seed, same-domain evaluation; near duplicates not assessed.",
+    "Retained64-character context and51-character vocabulary."
+  ]
+}
